@@ -1,0 +1,38 @@
+nav {
+    text-align: right;
+}
+main {
+    margin: 10px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e05449;
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(77, 77, 77);
+    font-style: normal;
+    font-weight: normal;
+}
+input {
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid rgb(214, 212, 212);
+}
+hr {
+    color: #ebebeb;
+    background-color: #ebebeb;
+    height: 1px;
+    border: 0;
+    width: 100%;               
+}
+button {
+    background-color: #4C8EF9;
+    border: none;
+    padding: 10px;
+    margin: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    
+}

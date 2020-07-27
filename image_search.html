@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            nav {
+                text-align: right;
+            }
+            main {
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+            button {
+                background-color: rgb(241, 241, 241);
+                border: none;
+                padding: 15px;
+                color: rgb(104, 103, 103);
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 5px;
+                
+            }
+            input[type="text"] {
+                border-radius: 15px;
+                padding: 10px;
+                border: 1px solid rgb(214, 212, 212);
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="search.html">Google Search</a>
+            &nbsp;
+            <a href="advanced_search.html">Advanced Search</a>
+        </nav>
+        <main>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/2880px-Google_Images_2015_logo.svg.png" alt="Oops!"
+                    width="300px">
+                    <br>
+                    <br>
+            <form action="https://google.com/search">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="text" name="q" size="70">
+                &nbsp;
+                <!-- <input type="image" name="submit" width="25" src="https://cdn1.iconfinder.com/data/icons/toolbar-signs/512/search-512.png"> -->
+                <button>Search</button>
+            </form>
+        </main>
+    </body>
+</html> 
